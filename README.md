@@ -14,3 +14,16 @@ This Unity project aims to showcase an articulated worm using the following comp
 
 ## Project Structure
 
+
+## How to Use
+
+1. Clone the repository.
+2. Open the Unity project using Unity Hub.
+3. Explore the `Model Folder` for the articulated worm assets.
+4. Utilize the provided prefab (`ArticulatedWormPrefab`) in your scenes.
+
+## Credits
+
+- Articulated Worm Model: [Artist Name/Source]
+
+
