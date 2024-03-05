@@ -363,7 +363,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3a590000
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 30fbffff50590000
       m_RenameOverlay:
@@ -758,9 +758,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15.995438, y: -13.526428, z: 77.67168}
+    m_Target: {x: 95.325714, y: 156.84877, z: 191.24011}
     speed: 2
-    m_Value: {x: 15.995438, y: -13.526428, z: 77.67168}
+    m_Value: {x: 95.325714, y: 156.84877, z: 191.24011}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -806,13 +806,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.022873677, y: -0.4989608, z: -0.013175695, w: 0.86622566}
+    m_Target: {x: -0.03930808, y: -0.46398023, z: -0.020614417, w: 0.88473606}
     speed: 2
-    m_Value: {x: -0.022873614, y: -0.49895942, z: -0.013175659, w: 0.8662233}
+    m_Value: {x: -0.03930797, y: -0.46397895, z: -0.020614361, w: 0.8847336}
   m_Size:
-    m_Target: 113.437996
+    m_Target: 310.14877
     speed: 2
-    m_Value: 113.437996
+    m_Value: 310.14877
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -882,7 +882,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -890,15 +890,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\odono\UNITY_Projects_Feb_2024\2024_BSCH_CompSci_3053007\2024_BSCH_CompSci_R_O_D_3053007
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e4590000
-    m_LastClickedID: 23012
+    m_SelectedIDs: d8590000
+    m_LastClickedID: 23000
     m_ExpandedIDs: 00000000d859000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1063,7 +1063,7 @@ MonoBehaviour:
   m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
-  m_VSyncEnabled: 1
+  m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -1081,10 +1081,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 498.50006, y: 346.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 --- !u!114 &19
