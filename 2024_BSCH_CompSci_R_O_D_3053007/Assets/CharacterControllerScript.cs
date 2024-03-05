@@ -18,6 +18,11 @@ public class CharacterControllerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // If the absolute value of the input is greater than 0.1
+        if (Mathf.Abs(Input.GetAxis("Horizontal")) * acceleration > 0.1f){
+            
+            //Gets the Input value and multiplies it by acceleration
+            myRb.AddForce(new Vector2(Input.GetAxis("Horizontal") * acceleration,0),ForceMode2D.Force);
+        }
     }
 }
