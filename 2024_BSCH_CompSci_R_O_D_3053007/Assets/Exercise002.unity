@@ -381,6 +381,9 @@ MonoBehaviour:
   myRb: {fileID: 492723605}
   jumpForce: 20
   isGrounded: 0
+  secondaryJumpForce: 5
+  secondaryJumpTime: 0.4
+  secondaryJump: 0
 --- !u!61 &492723608
 BoxCollider2D:
   m_ObjectHideFlags: 0

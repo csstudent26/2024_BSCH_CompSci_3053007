@@ -14,7 +14,11 @@ public class CharacterControllerScript : MonoBehaviour
     public float jumpForce;
 
     public bool isGrounded;
-    // Start is called before the first frame update
+    public float secondaryJumpForce;
+    public float secondaryJumpTime;
+    public bool secondaryJump;
+
+    
     void Start()
     {
         myRb = GetComponent<Rigidbody2D>();
@@ -28,12 +32,21 @@ public class CharacterControllerScript : MonoBehaviour
             
             //Gets the Input value and multiplies it by acceleration
             myRb.AddForce(new Vector2(Input.GetAxis("Horizontal") * acceleration,0),ForceMode2D.Force);
-        }
-
+        } 
+        //START JUMP CODE   
         if (isGrounded == true && Input.GetButtonDown("Jump"))
         {
             myRb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            StartCoroutine((SecondaryJump()));
         }
+
+        if (isGrounded == false && Input.GetButton("Jump"))
+        {
+            myRb.AddForce(new Vector2(0, secondaryJumpForce), ForceMode2D.Force);//While the Jump Button is held
+
+        }
+        
+        //END JUMP CODE 
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -45,5 +58,12 @@ public class CharacterControllerScript : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         isGrounded = true;
+    }
+
+    IEnumerator SecondaryJump()
+    {
+        secondaryJump = true;
+        yield return new WaitForSeconds(secondaryJumpTime);
+        secondaryJump = false;
     }
 }
