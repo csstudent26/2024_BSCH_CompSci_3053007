@@ -23,7 +23,7 @@ public class CharacterControllerScript : MonoBehaviour
     void Start()
     {
         myRb = GetComponent<Rigidbody2D>();
-        anim = GetComponentsInChildren<Animator>()
+        anim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
